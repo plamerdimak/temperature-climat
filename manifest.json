@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "meteo Extension",
+  "version": "1.0",
+  "description": "Extension avec formulaire dans le popup",
+
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+        "16": "icons/icon.png",
+        "48":"icons/icon.png", 
+        "128":"icons/icon.png" 
+    }
+  },
+
+  "icons": {
+    "16":"icons/icon.png", 
+    "48": "icons/icon.png",
+    "128": "icons/icon.png"
+  },
+
+  "permissions": ["scripting", "activeTab"],
+
+  "background": {
+    "service_worker": "background.js"
+  }
+}

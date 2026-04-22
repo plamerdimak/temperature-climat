@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> APPLICATION METEO </h1>
+   <div id="search-container">
+        <input type="text" id="city" placeholder="nom de la ville " type="text"  autocomplete="off"/>
+        <button id="btnSend">Envoyer</button>
+   </div>
+    <div id="whater-info">
+        <p id="localisation"></p>
+        <p id="temperature"></p>
+        <p id="description"></p>
+    </div>
+     <script src="Json.js"></script>
+     <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f2fd;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #0d47a1;
+}
+
+#search-container {
+    margin: 20px 0;
+}
+
+#city {
+    padding: 8px;
+    width: 180px;
+}
+
+#btnSend {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+#whater-info {
+    margin-top: 20px;
+}
+
+#whater-info p {
+    font-size: 18px;
+}
+
+
+     </style>
+</body>
+</html>
